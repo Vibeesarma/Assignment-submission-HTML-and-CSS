@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ /* Nav bar  */
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    height: 60px;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 25%;
+    height: 60px;
+    /* background-color: lightblue; */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.nav{
+    width:50%;
+    height: 60px;
+    /* background-color: blue; */
+}
+
+.nav-links{
+    display: flex;
+
+}
+
+.nav-link{
+list-style-type:none;
+height: 60px;
+width: 25%;
+/* background-color: red; */
+text-align: center;
+line-height: 60px;
+font-family: 'Segoe UI';
+cursor: pointer;
+
+}
+
+.nav-link:hover{
+    background-color: white;
+}
+
+
+/* banner css */
+
+.banner{
+    background-color: blue;
+    width: 100%;
+    height: 700px;
+    background-image: url('wall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section{
+    height:400px;
+    width: 40%;
+    /* background-color:blue; */
+    margin-left: 5%;
+    font-size:70px;
+    font-family: 'segoe UI';
+    font-weight:bold;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+
+}
+
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: gray;
+    color: black;
+}
+
+/* flims css */
+
+.flims{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flims-container{
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'segoe UI';
+}
+
+.flim-card{
+    width: 22%;
+    height:450px;
+    background-color: yellow;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.flim-details{
+    height: 225px;
+    width:100%;
+    background-color: rgb(0, 0,0,0.7);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.flim-details:hover{
+    height: 450px;
+
+}
+
+.flim-title{
+    color: white;
+    font-family:'segon UI';
+    font-size: 40px;
+    
+}
+
+.padd{
+    padding: 20px;
+} 
+
+.btn-flim{
+    background-color: gray;
+}
+
+.card-1{
+    background-image: url(https://i.pinimg.com/236x/0d/eb/ac/0debacdbe96bc74444136dffee7d805b.jpg);
+}
+
+.card-2{
+    background-image: url(https://i.pinimg.com/originals/c5/8d/91/c58d915e91598b053a344101f610bdf0.jpg);
+}
+
+.card-3{
+    background-image: url(https://lh3.googleusercontent.com/proxy/GsLtbPmRGka5G8dXn2NQ2CNRUcOT_efxBlK63HuLLkM9-A97ynTv80HV1Ca_Pn9QMNu3PYnpd2fftQAEHqM5gWd81nRx6bNrh-WzZJ9Cspu1xqrH3Ltly2uG3e_fnwA2JHzgivia72XWdEo);
+}
+
+.card-4{
+    background-image: url(https://c8.alamy.com/comp/JTEF2R/robert-downey-jr-poster-iron-man-3-2013-JTEF2R.jpg);
+}
+
+.card-5{
+    background-image: url(http://media.comicbook.com/2018/03/avengers-infinity-war-poster-all-iron-man-version-1096449.jpeg);
+}
+
+/* about css */
+.about{
+    background-color: lightgray;
+    width:100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title{
+    background-color: gray;
+    width: 100%;
+    height:20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.about-name{
+    padding-left: 10px;
+    font-family: 'segon UI';
+}
+
+.about-description{
+    font-family:'segon UI';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
